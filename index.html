@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stamp</title>
+    <link rel="shortcut icon" href="./src/img/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+
+<body>
+
+    <nav class="nav">
+        <h1 class="heading">Stamp Col</h1>
+        
+        <section class="nav-items">
+            <a href="#home" class="nav-menu">Home</a>
+            <a href="#about" class="nav-menu">About</a>
+            <a href="#gallery" class="nav-menu">Gallery</a>
+            <a href="#contact" class="nav-menu">Contact Me</a>
+        </section>
+    </nav>
+
+    <section id="home" class="page">
+
+        <img src="./src/img/my_image.png" alt="shishir's image" class="my-img">
+
+        <section class="hero-text-area">
+            <h1 class="hero-text">Welcome To My Collection</h1>
+            <h1 class="hero-text">Stamp<span style="color:crimson">Col</span></h1>
+        </section>
+
+    </section>
+
+    <section id="about" class="page">
+        <img src="./src/img/about-back.jpeg" alt="about-img" class="about-img">
+
+        <section class="about-des">
+            <h1 class="hero-text about-text">About</h1>
+
+            <p class="about-des" style="width: 700px;">
+                Hi there, <br>
+                I am Shishir Shekhar, I am very enthusiastic about stamp collection. <br>
+                Stamp collecting is the collecting of postage stamps and related objects.
+                It is an area of philately, which is the study or study and collection of stamps.
+                It has been one of the world's most popular hobbies since the late nineteenth century with the rapid growth of the postal service,
+                as a never-ending stream of new stamps was produced by countries that sought to advertise their distinctiveness through their stamps.
+            </p>
+        </section>
+    </section>
+
+    <section id="gallery" class="page">
+
+        <h1 class="hero-text about-text">Gallery</h1>
+
+        <div class="stamp-container">
+
+            <div class="stamp-col1">
+                <img src="./src/img/stamp1.jpeg" alt="stamp1" class="stamp-img">
+                <img src="./src/img/stamp2.jpeg" alt="stamp2" class="stamp-img">
+                <img src="./src/img/stamp3.jpeg" alt="stamp3" class="stamp-img">
+            </div>
+
+            <div class="stamp-col2">
+                <img src="./src/img/stamp4.jpeg" alt="stamp4" class="stamp-img">
+                <img src="./src/img/stamp5.jpeg" alt="stamp5" class="stamp-img">
+                <img src="./src/img/stamp6.jpeg" alt="stamp6" class="stamp-img">
+            </div>
+
+        </div>
+
+        <a href="https://www.stanleygibbons.com/" target="_blank" style="color:red;" class="more-stamp">
+            Click here to check out more stamps.
+        </a>
+
+    </section>
+
+    <section id="contact" class="page">
+
+        <h1 class="contact-heading">Keep in Touch</h1>
+
+        <!-- contact-container starts -->
+        <section class="contact-container">
+
+            <!-- logo starts -->
+            <img src="./src/img/logo.jpeg" alt="logo" class="contact-logo">
+            <!-- logo ends -->
+
+            <!-- form container starts -->
+            <section class="form-container">
+
+                <div class="text">Contact Us</div>
+
+                <!-- form starts  -->
+                <form action="#" class="contact-form">
+
+                    <div class="form-row">
+
+                        <div class="input-data">
+                            <input type="text" id="first-name" required>
+                            <div class="underline"></div>
+                            <label for="first-name">First Name</label>
+                        </div>
+
+                        <div class="input-data">
+                            <input type="text" id="last-name" required>
+                            <div class="underline"></div>
+                            <label for="last-name">Last Name</label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+
+                        <div class="input-data">
+                            <input type="text" id="email" required>
+                            <div class="underline"></div>
+                            <label for="email">Email Address</label>
+                        </div>
+
+                        <div class="input-data">
+                            <input type="text" id="subject" required>
+                            <div class="underline"></div>
+                            <label for="subject">Subject</label>
+                        </div>
+
+                    </div>
+
+                    <div class="form-row">
+                        <div class="input-data textarea">
+
+                            <textarea rows="10" cols="30" id="message" required></textarea>
+                            <div class="underline"></div>
+                            <label for="message">Write your message</label>
+
+                            <div class="form-row submit-btn">
+                                <div class="input-data">
+                                    <div class="inner"></div>
+                                    <input type="submit" value="submit">
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </form>
+                <!-- form ends  -->
+            </section>
+            <!-- form container ends -->
+        </section>
+
+    </section>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8613;</button>
+
+    <script src="./src/js/script.js"></script>
+
+</body>
+
+</html>
